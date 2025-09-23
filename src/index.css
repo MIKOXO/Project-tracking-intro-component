@@ -4,3 +4,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-link {
+  @apply font-BarlowCondensed text-[18px] uppercase tracking-[1px] font-bold text-Blue950 hover:underline ease-in-out duration-300;
+}
